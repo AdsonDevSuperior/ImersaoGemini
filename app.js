@@ -4,7 +4,6 @@ function pesquisar() {
     console.log(section);
 
     let campoPesquisa = document.getElementById("campo-pesquisa").value
-
     const regex = /^[a-zA-Z]{4,}$/;
 
     if (!campoPesquisa) {
