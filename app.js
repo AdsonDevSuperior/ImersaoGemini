@@ -7,25 +7,14 @@ function pesquisar() {
     // se campoPesquisa for uma string sem nada
     if (!campoPesquisa) {
         section.innerHTML = "<p>Nada foi encontrado. Você precisa digitar o nome de um atleta ou esporte</p>"
-        return
+        return 
     }
 
-    const regex = /^[a-zA-Z]{4,}$/;
+    campoPesquisa = campoPesquisa.toLowerCase()
 
-    if (!campoPesquisa) {
-        section.innerHTML = "Nada foi encontrado"
-        return
-    }
-
-    campoPesquisa = campoPesquisa.toLowerCase();
-
-    if (!regex.test(campoPesquisa)) {
-        section.innerHTML = "Digite apenas letras e mais de 3 caracteres";
-        return;
-    }
-
+    // Inicializa uma string vazia para armazenar os resultados
     let resultados = "";
-    let titulo = "";
+    let titulo = ""; 
     let descricao = "";
     let tags = "";
 
