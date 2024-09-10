@@ -1,20 +1,20 @@
 let dados = [
     {
         titulo: "Rayssa Leal",
-        descricao: "Nascida em Imperatriz, Maranhão, ela se tornou a mais jovem medalhista olímpica da história do Brasil, ao conquistar o bronze no skate street nos Jogos Olímpicos de Tóquio 2020.",
-        link: "https://www.olimpiadatododia.com.br/rayssa-leal/",
+        descricao: "Rayssa Leal, a Fadinha, é uma skatista brasileira que conquistou o mundo com seu talento e carisma. Aos poucos anos, ela já coleciona títulos e inspira milhões de jovens.",
+        link: "https://pt.wikipedia.org/wiki/Rayssa_Leal",
         tags: "skate fada sk8"
     },
     {
         titulo: "Beatriz Souza",
-        descricao: "Judoca brasileira, campeã olímpica nos Jogos de Paris 2024. Conhecida por sua força e técnica, Beatriz conquistou a primeira medalha de ouro do Brasil no judô na história dos Jogos Olímpicos.",
-        link: "https://cbj.com.br/atletas/beatriz-souza/",
-        tags: "judo judoka"
+        descricao: "Beatriz Souza é uma judoca brasileira que se destacou nos Jogos Olímpicos de Paris 2024, conquistando a medalha de ouro e inspirando novas gerações de atletas.",
+        link: "https://pt.wikipedia.org/wiki/Beatriz_Souza",
+        tags: "judô judo judoca judoka"
     },
     {
         titulo: "Rebeca Andrade",
-        descricao: "Ginasta brasileira, campeã olímpica e mundial. Conquistou a primeira medalha de ouro olímpica para o Brasil na ginástica artística, nos Jogos de Tóquio 2020.",
-        link: "https://ge.globo.com/olimpiadas/guia/2024/07/13/c-rebeca-andrade-idade-altura-medalhas-e-historia-da-ginasta.ghtml",
+        descricao: "Rebeca Andrade é uma ginasta brasileira que conquistou o mundo com suas acrobacias e força. Aos poucos anos, ela já coleciona títulos e é considerada uma das maiores ginastas da história do Brasil.",
+        link: "https://pt.wikipedia.org/wiki/Rebeca_Andrade",
         tags: "ginástica ginastica ouro"
     }
 ];
